@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: rgb(180, 180, 180);
+  word-break: keep-all;
+  padding-bottom: 100px;
+}
+
+.section-div {
+  min-height: 50vh;
+  padding-top: 100px;
+}
+
+.jumbotron {
+  background-color: rgb(235, 235, 235);
+}
+
+.tagline {
+  margin-bottom: 60px;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  color: red;
+}
+
+.course-title {
+  font-weight: 400;
+}
+
+.my-picture {
+  max-height: 360px;
+  width: auto;
+}
+
+@media all and (max-width: 960px) {
+  .my-picture {
+    display: block;
+    margin: 0 auto;
+  }
+}
